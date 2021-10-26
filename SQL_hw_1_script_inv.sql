@@ -26,8 +26,6 @@ select id, name from students where name like '%a%';
 select name, created_on from students where created_on = '2021-07-12 00:00:00';
 -- 14. ¬ывести пользователей которые были созданы 2021-07-12 00:00:00 и имеют пароль 1m313
 select name, created_on, password from students where created_on = '2021-07-12 00:00:00' and password = '1m313';
---проверка, что в таких пользовател€х нет такого парол€
-select name, created_on, password from students where created_on = '2021-07-12 00:00:00';
 -- 15. ¬ывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть слово Andrey
 select name, created_on from students where created_on = '2021-07-12 00:00:00' and name like '%Andrey%'; 
 -- 16. ¬ывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть цифра 8
