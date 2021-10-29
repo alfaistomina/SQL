@@ -47,7 +47,7 @@ select name, id from students where id >= 37;
 --24. ¬ывести пользовател€ у которых id больше 80 но меньше 90
 select name, id from students where id > 80 and id < 90;
 --25. ¬ывести пользовател€ у которых id между 80 и 90
-select name, id from students where id > 80 and id < 90;
+select name, id from students where id between 80 and 90;
 --26. ¬ывести пользователей где password равен 12333, 1m313, 123313
 select name, password from students where password = '12333' or password = '1m313' or password = '123313';
 --27. ¬ывести пользователей где created_on равен 2020-10-03 00:00:00, 2021-05-19 00:00:00, 2021-03-26 00:00:00
