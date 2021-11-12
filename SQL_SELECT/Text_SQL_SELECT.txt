@@ -1,19 +1,3 @@
-[In reply to Group_23_Channel]
-SQL HomeWork 1
-
-Подключится к 
-Host: 159.69.151.133
-Port: 5056
-User: user_23_x
-Pass: 123
-Table: qa_students_1
-
-Таблица пользователей базы данных qa_students_1 - https://docs.google.com/spreadsheets/d/1cQB_JxdkrXqEMmb8fFIebDpgzNOZkm8lTcyCnLIhpDU/edit?usp=sharing
-
-Создать текстовый файл в котором на против каждой команды напишите sql запрос который выполнит команду.
-
-Текстовый файл выгружайте на гит и скидывайте ссылки на проверку.
-
  1. Вывести все поля и все строки.
  2. Вывести всех студентов в таблице
  3. Вывести только Id пользователей

@@ -7,3 +7,4 @@ insert into salary (id, monthly_salary)
 values (default, 2500);
 
 select * from salary;
+
